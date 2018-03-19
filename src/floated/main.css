@@ -33,11 +33,11 @@ footer {
 ol {
   margin: 0;
   padding: 0;
+  width: 33%;
+  display: inline-block;
 }
 
 ol > li {
-  display: inline-block;
-  width: 33%;
   height: 80px;
   text-align: center;
 }
