@@ -1,0 +1,34 @@
+body {
+  min-width: 550px; /* 2x LC width + RC width */
+  text-align: center;
+}
+#container {
+  padding-left: 200px; /* LC width */
+  padding-right: 150px; /* RC width */
+}
+#container .column {
+  position: relative;
+  float: left;
+}
+section {
+  width: 100%;
+  background: rgb(24, 204, 84);
+}
+nav {
+  width: 200px; /* LC width */
+  right: 200px; /* LC width */
+  margin-left: -100%;
+  background: rgb(224, 49, 49);
+}
+aside {
+  width: 150px; /* RC width */
+  margin-right: -150px; /* RC width */
+  background: rgb(51, 24, 204);
+}
+footer {
+  clear: both;
+}
+/*** IE6 Fix ***/
+* html nav {
+  left: 150px; /* RC width */
+}
