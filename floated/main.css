@@ -2,6 +2,10 @@ body {
   min-width: 550px; /* 2x LC width + RC width */
   text-align: center;
 }
+ul li,
+p {
+  text-align: left;
+}
 #container {
   padding-left: 200px; /* LC width */
   padding-right: 150px; /* RC width */
