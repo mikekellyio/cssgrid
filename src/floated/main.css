@@ -34,7 +34,8 @@ ol {
   margin: 0;
   padding: 0;
   width: 33%;
-  display: inline-block;
+  display: block;
+  float: left;
 }
 
 ol > li {
