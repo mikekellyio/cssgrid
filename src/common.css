@@ -31,6 +31,22 @@ li,
 p {
   text-align: left;
 }
+
+ol,
+ul {
+  margin: 5px;
+  padding: 15px;
+}
+
+ol li:first-child {
+  color: #fff;
+  background: rgb(14, 116, 48);
+}
+ol li:nth-child(2n + 3) {
+  color: #fff;
+  background: rgb(14, 116, 48);
+}
+
 h1,
 h2,
 h3,
