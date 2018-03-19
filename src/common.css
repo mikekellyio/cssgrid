@@ -1,0 +1,41 @@
+html,
+body {
+  min-height: 100%;
+}
+
+section,
+nav,
+aside {
+  padding: 5px 10px 5px;
+
+  box-sizing: border-box;
+}
+section {
+  background: rgb(24, 204, 84);
+}
+nav {
+  color: #fff;
+  background: rgb(224, 49, 49);
+}
+aside {
+  color: #fff;
+  background: rgb(51, 24, 204);
+}
+
+body {
+  text-align: center;
+
+  font-family: "Roboto", sans-serif;
+}
+li,
+p {
+  text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Slabo 27px", serif;
+}
