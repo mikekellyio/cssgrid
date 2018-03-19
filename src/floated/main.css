@@ -38,6 +38,5 @@ ol {
 ol > li {
   float: left;
   width: 33%;
-  height: 80px;
   text-align: center;
 }
